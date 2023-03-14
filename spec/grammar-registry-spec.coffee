@@ -1,5 +1,5 @@
 path = require 'path'
-GrammarRegistry = require '../src/grammar-registry'
+GrammarRegistry = require '../lib/grammar-registry'
 
 describe "GrammarRegistry", ->
   registry = null

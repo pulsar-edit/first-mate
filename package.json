@@ -4,38 +4,34 @@
   "description": "TextMate helpers",
   "main": "./lib/first-mate.js",
   "scripts": {
-    "test": "grunt test",
-    "prepare": "grunt prepublish",
-    "benchmark": "node_modules/.bin/coffee benchmark/benchmark.coffee"
+    "test": "jasmine-focused --coffee --captureExceptions spec",
+    "benchmark": "node_modules/.bin/coffee benchmark/benchmark.coffee",
+    "parse": "pegjs -o ./lib/scope-selector-parser.js ./src/scope-selector-parser.pegjs",
+    "docs": "grunt atomdoc"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atom/first-mate"
+    "url": "https://github.com/pulsar-edit/first-mate"
   },
   "bugs": {
-    "url": "https://github.com/atom/first-mate/issues"
+    "url": "https://github.com/pulsar-edit/first-mate/issues"
   },
   "license": "MIT",
-  "homepage": "http://atom.github.io/first-mate",
+  "homepage": "http://github.com/pulsar-edit/first-mate",
   "dependencies": {
-    "emissary": "^1",
-    "event-kit": "^2.2.0",
+    "emissary": "^1.3.3",
+    "event-kit": "^2.5.3",
     "fs-plus": "^3.0.0",
-    "grim": "^2.0.1",
+    "grim": "^2.0.3",
     "oniguruma": "^7.2.3",
     "season": "^6.0.2",
     "underscore-plus": "^1"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.0",
-    "grunt": "~0.4.1",
-    "grunt-atomdoc": "^1.0.0",
-    "grunt-cli": "~0.1.8",
-    "grunt-coffeelint": "0.0.6",
-    "grunt-contrib-coffee": "~0.9.0",
-    "grunt-peg": "~1.1.0",
-    "grunt-shell": "~0.2.2",
+    "grunt": "^0.4.0",
+    "grunt-atomdoc": "^1.0.1",
+    "grunt-cli": "^1.4.3",
     "jasmine-focused": "^1",
-    "rimraf": "~2.1.4"
+    "pegjs": "^0.10.0"
   }
 }
