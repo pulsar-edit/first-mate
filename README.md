@@ -1,3 +1,5 @@
+# This repository has been archived under Pulsar after migrating to [`second-mate`](https://github.com/pulsar-edit/second-mate) which provides the same utility with a compatible API.
+
 # First Mate
 [![CI](https://github.com/atom/first-mate/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/first-mate/actions/workflows/ci.yml)
 
