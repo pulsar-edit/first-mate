@@ -1,4 +1,4 @@
-# This repository has been archived under Pulsar after migrating to [`second-mate`](https://github.com/pulsar-edit/second-mate) which provides the same utility with a compatible API (but uses a WASM version of Oniguruma so it can be used in future versions of Electron and in the browser too).
+# This repository has been archived under Pulsar after migrating to [`second-mate`](https://github.com/pulsar-edit/second-mate) which provides the same utility with an identical API (but uses a WASM version of Oniguruma so it can be used in future versions of Electron and in the browser too).
 
 # First Mate
 [![CI](https://github.com/atom/first-mate/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/first-mate/actions/workflows/ci.yml)
